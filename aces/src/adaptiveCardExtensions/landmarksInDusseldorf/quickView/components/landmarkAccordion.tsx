@@ -30,7 +30,7 @@ export const LandmarksAccordion: React.FunctionComponent<ILandmarksAccordionProp
             console.log('Landmarks response:', landmarksResponse);
             
             if (landmarksResponse && landmarksResponse.landmarks && landmarksResponse.landmarks.length > 0) {
-                setLandmarks(landmarksResponse.landmarks as Landmark[]);
+                setLandmarks(landmarksResponse.landmarks.slice(0,4) as Landmark[]);
             } else {
                 console.warn('No landmarks found in the response');
             }

@@ -17,7 +17,8 @@ export class QuickView extends BaseWebQuickView<
   ILandmarksInDusseldorfAdaptiveCardExtensionState
 > {
   render(): void {
-    const { aadHttpClientFactory, allowMultipleExpanded } = this.properties;
+    const { allowMultipleExpanded } = this.properties;
+    const { aadHttpClientFactory } = this.state;
     const element: React.ReactElement<{}> = React.createElement(LandmarksAccordion, {
       aadHttpClientFactory,
       allowMultipleExpanded,

@@ -3,7 +3,7 @@
   "solution": {
     "name": "ecs-2025-spfx-aces-client-side-solution",
     "id": "5cfe8601-f2a6-441b-a3b7-cba9a4344988",
-    "version": "1.0.0.1",
+    "version": "1.0.0.2",
     "includeClientSideAssets": true,
     "skipFeatureDeployment": true,
     "isDomainIsolated": false,

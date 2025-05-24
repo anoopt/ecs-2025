@@ -9,12 +9,12 @@ import { IReadonlyTheme, ThemeProvider, ThemeChangedEventArgs } from '@microsoft
 export interface ILandmarksInDusseldorfAdaptiveCardExtensionProps {
   title: string;
   mainImage: string;
-  aadHttpClientFactory: AadHttpClientFactory;
   allowMultipleExpanded: boolean;
 }
 
 export interface ILandmarksInDusseldorfAdaptiveCardExtensionState {
   theme: IReadonlyTheme | undefined;
+  aadHttpClientFactory: AadHttpClientFactory;
 }
 
 const CARD_VIEW_REGISTRY_ID: string = 'LandmarksInDusseldorf_CARD_VIEW';
@@ -33,10 +33,9 @@ export default class LandmarksInDusseldorfAdaptiveCardExtension extends BaseAdap
     this.theme = this.themeProvider.tryGetTheme();
     this.themeProvider.themeChangedEvent.add(this, this.handleThemeChangedEvent);
 
-    this.properties.aadHttpClientFactory = this.context.aadHttpClientFactory;
-
     this.state = {
-      theme: this.theme
+      theme: this.theme,
+      aadHttpClientFactory: this.context.aadHttpClientFactory
     };
 
     // registers the card view to be shown in a dashboard
