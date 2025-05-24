@@ -1,0 +1,44 @@
+{
+  "landmarks": [
+    {
+      "title": "Rheinturm",
+      "shortDescription": "A 240.5-meter telecommunications tower offering panoramic views of Düsseldorf and the Rhine River, featuring a revolving restaurant and observation deck."
+    },
+    {
+      "title": "Königsallee",
+      "shortDescription": "One of Europe's most luxurious shopping streets, lined with high-end boutiques, designer stores, and elegant tree-lined canals."
+    },
+    {
+      "title": "Altstadt (Old Town)",
+      "shortDescription": "The historic heart of Düsseldorf, known as 'the longest bar in the world' with over 300 bars, restaurants, and breweries in a compact area."
+    },
+    {
+      "title": "Schloss Benrath",
+      "shortDescription": "An 18th-century baroque palace with beautiful gardens, now housing museums showcasing European garden art and natural history."
+    },
+    {
+      "title": "MedienHafen",
+      "shortDescription": "A modern harbor district featuring cutting-edge architecture by renowned architects like Frank Gehry, with the iconic Gehry buildings as highlights."
+    },
+    {
+      "title": "St. Lambertus Basilica",
+      "shortDescription": "A medieval church with a distinctive twisted spire, legend says it twisted when an unworthy person was buried there."
+    },
+    {
+      "title": "Rhine Promenade",
+      "shortDescription": "A scenic waterfront walkway along the Rhine River, perfect for strolling, cycling, and enjoying views of the old town and river traffic."
+    },
+    {
+      "title": "Kunstsammlung Nordrhein-Westfalen",
+      "shortDescription": "A renowned art museum complex featuring modern and contemporary art, including works by Picasso, Klee, and other masters."
+    },
+    {
+      "title": "Japanese Quarter",
+      "shortDescription": "The largest Japanese community in Germany, offering authentic restaurants, shops, and the beautiful EKŌ-Haus Japanese cultural center."
+    },
+    {
+      "title": "Carlsplatz Market",
+      "shortDescription": "Düsseldorf's oldest market square, featuring fresh local produce, flowers, and specialty foods in a charming historic setting."
+    }
+  ]
+}

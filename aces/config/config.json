@@ -1,0 +1,27 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "population-by-cities-adaptive-card-extension": {
+      "components": [
+        {
+          "entrypoint": "./lib/adaptiveCardExtensions/populationByCities/PopulationByCitiesAdaptiveCardExtension.js",
+          "manifest": "./src/adaptiveCardExtensions/populationByCities/PopulationByCitiesAdaptiveCardExtension.manifest.json"
+        }
+      ]
+    },
+    "landmarks-in-dusseldorf-adaptive-card-extension": {
+      "components": [
+        {
+          "entrypoint": "./lib/adaptiveCardExtensions/landmarksInDusseldorf/LandmarksInDusseldorfAdaptiveCardExtension.js",
+          "manifest": "./src/adaptiveCardExtensions/landmarksInDusseldorf/LandmarksInDusseldorfAdaptiveCardExtension.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "PopulationByCitiesAdaptiveCardExtensionStrings": "lib/adaptiveCardExtensions/populationByCities/loc/{locale}.js",
+    "LandmarksInDusseldorfAdaptiveCardExtensionStrings": "lib/adaptiveCardExtensions/landmarksInDusseldorf/loc/{locale}.js"
+  }
+}
